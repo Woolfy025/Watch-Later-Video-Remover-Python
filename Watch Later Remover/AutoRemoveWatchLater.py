@@ -9,6 +9,10 @@ import sys
 #pyautogui.displayMousePosition()
 #quit()
 
+pyautogui.moveTo(1396, 377)
+time.sleep(.5)
+pyautogui.click()
+
 #set this count to however many videos you wanna delete off the list
 count = 4000
 for videos in range(count):
