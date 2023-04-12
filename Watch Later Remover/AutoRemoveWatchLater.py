@@ -7,7 +7,8 @@ import sys
     #it'll display the x and y in the terminal for you
     #comment it out again to run the rest of the script
     
-#pyautogui.displayMousePosition()
+pyautogui.displayMousePosition()
+quit()
 
 #change these numbers to where your menu pops up
 pyautogui.moveTo(1396, 377)
